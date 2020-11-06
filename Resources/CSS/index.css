@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.banner {
+  background-color:  #a1b5d8;
+  color: black;
+  margin-top; 75px;
+  text-align: center;
+  padding: 50px; 0;
+  font-family: courier new;
+  font-size: 25px;
+}
+
+
+.products {
+  background-color: #f7e8a4;
+  font-family: courier new;
+  padding: 50px; 0;
+  text-align: center;
+  padding: 50px; 0;
+}
+
+.box{
+  display: flex;
+  padding: 50px;
+  height: 30vh;
+  background-color: #f7e8a4;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-1{
+  background-color: #f7e8a4;
+  font-size: 30px;
+  font-family: courier new;
+  color: black;
+  text-align: center;
+  width: 600px;
+  border: 8px solid #a1b5d8;
+  height: 30vh;
+  box-sizing: border-box;
+  padding-top: 50px;
+}
+
+.container{
+  display: flex;
+  height: 60vh;
+  flex-direction: row;
+  justify-content: space-around; /* space-around or space-between */
+  align-items: center;
+  background-color: #f7e8a4;
+  flex-wrap: wrap;
+}
+
+.Bread1{
+  width: 200px;
+  height: 200px;
+}
+
+.Cookies{
+  width: 200px;
+  height: 200px;
+}
+
+.BakeryWindow{
+  width: 200px;
+  height: 200px;
+}
+
+.CinnamonBun{
+  width: 200px;
+  height: 200px;
+}
+
+.Muffins{
+  width: 200px;
+  height: 200px;
+}
+.contact{
+  display: flex;
+  font-family: courier new;
+  text-align: center;
+  padding: 50px; 0;
+}
+
+p{
+  font-size: 20px;
+}
